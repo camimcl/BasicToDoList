@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;  
+    /* serve p pegar as dimensoes definidas e deixar como max ou min*/
+}
+
+.block{
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 30px;
+}
+p.titles{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(69, 68, 68);
+    margin-top:0;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgb(69, 68, 68);
+    border-style: solid; 
+    
+}
+button{
+    margin-left:5px ;
+    height: 30px;
+     
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(69, 68, 68);
+    border-style: solid; 
+    cursor: pointer;
+}
+img{
+    width:16px ;
+    height: 16px;
+}
+.remove,.done,.restart{
+    padding: 0px;
+    margin: 0px ;
+    border: none;
+    height: 16px;
+    width: 16px;
+}
+.remove{
+    margin: 0px 8px 0px 8px;
+    
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+input:focus{
+background-color: rgb(193, 191, 191);
+  }
+p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(69, 68, 68);
+}
+li{
+    border: 1px solid rgb(100, 98, 98);
+    display:flex;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 5px;
+}
+li p{
+    margin: 0px;
+}
+
+li.task-todo button.restart{
+    display: none;
+}
+li.task-done button.done{
+    display: none;
+}
+h1{
+   color: rgb(69, 68, 68); 
+   text-align: center;
+}
