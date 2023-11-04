@@ -10,22 +10,26 @@
     <header>
       <h1>ToDoList</h1>
     </header>
+
     <div class="block">
-      <p class="titles">Tarefa</p>
+  
+      <p class="title">Tarefa</p>
       <form id="todo-form" method="post">
         <input
           type="text"
           id="todo-input"
           placeholder="O que você vai fazer ?"
         />
-        <button type="submit">ADICIONAR</button>
+        <button id="addButton" type="submit">ADICIONAR</button>
       </form>
       <hr />
-      <p class="titles">Tarefas</p>
-      <ul id="todo-tarefas"></ul>
+      <p class="title">Tarefas</p>
+      <ul id="todo-list"></ul>
+
       <hr />
-      <p class="titles">Tarefas concluídas</p>
-      <ul id="tarefas-concluidas"></ul>
+      <p class="title">Tarefas concluídas</p>
+      <ul id="done-list"></ul>
+      
     </div>
     <script src="todo.js"></script>
   </body>

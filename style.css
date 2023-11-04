@@ -4,20 +4,26 @@
     box-sizing: border-box;  
     /* serve p pegar as dimensoes definidas e deixar como max ou min*/
 }
-
+body{
+    background-color: #95cbea;
+   
+}
 .block{
+    z-index: 1;
     width: 100%;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
     padding: 30px;
+    background-color: #2a76a2;
+    
 }
-p.titles{
+p.title{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 32px;
-    color: rgb(69, 68, 68);
+    color: rgb(255, 255, 255);
     margin-top:0;
 }
 input{
@@ -27,21 +33,25 @@ input{
     border-width: 1px;
     border-color: rgb(69, 68, 68);
     border-style: solid; 
+    padding-left:8px;
+    border-radius: 3%;
     
 }
-button{
+button.remove,.done,.restart{
     margin-left:5px ;
     height: 30px;
-     
     background-color: white;
     border-width: 1px;
-    border-color: rgb(69, 68, 68);
+    border-color: rgba(69, 68, 68, 0);
     border-style: solid; 
     cursor: pointer;
+    background-color: rgba(253, 253, 253, 0);
+    padding-top:3px;
 }
 img{
     width:16px ;
     height: 16px;
+    
 }
 .remove,.done,.restart{
     padding: 0px;
@@ -65,14 +75,16 @@ background-color: rgb(193, 191, 191);
 p{
     font-weight: 400;
     font-size: 16px;
-    color: rgb(69, 68, 68);
+    color: rgb(255, 255, 255);
 }
 li{
-    border: 1px solid rgb(100, 98, 98);
+    border: 1px solid rgb(224, 198, 198);
     display:flex;
     align-items: center;
     padding: 16px;
     margin-bottom: 5px;
+    border-radius: 2px;
+    
 }
 li p{
     margin: 0px;
@@ -88,3 +100,17 @@ h1{
    color: rgb(69, 68, 68); 
    text-align: center;
 }
+button#addButton{
+    margin-left:5px ;
+    height: 30px;
+    border-width: 1px;
+    border-color: rgb(49, 48, 48);
+    border-style: solid; 
+    cursor: pointer;
+    background-color: rgb(112, 173, 201);
+    padding-top:3px;
+}
+button#addButton:hover{
+    background-color: #167fbd;
+}
+
