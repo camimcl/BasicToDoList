@@ -2,6 +2,9 @@
 #### This Repository was made for learning more about simple web technologies. 
 #### The main idea was to build a website w/ a todo list that storages the data on your browser.
 
+## Preview
+https://camimcl.github.io/BasicToDoList
+
 ## Content 
 Here I used some basic concepts of Javascript to build the following structures:
 
