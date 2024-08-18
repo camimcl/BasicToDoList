@@ -9,7 +9,7 @@ https://camimcl.github.io/BasicToDoList
 Here I used some basic concepts of Javascript to build the following structures:
 
 - *Simple minimalist design*
-- *CRUD & bLocalStorage:* To store the tasks data based on the operations READ, DELETE, CREATE & UPDATE.
+- *CRUD & LocalStorage:* To store the tasks data based on the operations READ, DELETE, CREATE & UPDATE.
   
 ## Used Technologies
 - *Visual Studio Code:* Development environment used to carry out the challenge.
