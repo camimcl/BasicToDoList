@@ -4,7 +4,7 @@
 **I adapted the code to consume an api instead of localstorage, so now i'm using a api developed with Spring boot and the H2 database, which allows database management without having to download anything**
 
 ## Preview
-https://camimcl.github.io/BasicToDoList
+https://camimcl.github.io/BasicToDoList/frontend/
 
 ## How to use
 To test the application, clone the repository, separate the API code in the *backend* folder (make sure to check the ports used) and run the spring application.\
