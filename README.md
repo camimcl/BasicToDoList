@@ -14,12 +14,11 @@ http://localhost:8081/h2-console \
 remember to check the datasource url in application.properties \
 After running the api, you can test the application with live server.
 
-## Content 
-Here I used some basic concepts of Javascript to build the following structures:
-
+## Old Version (Only LocalStorage)
+- *HTML, CSS, JS* 
 - *Simple minimalist design*
-- *CRUD & LocalStorage:* To store the tasks data based on the operations READ, DELETE, CREATE & UPDATE. (old version)
-  
+- *CRUD & LocalStorage:* To store the tasks data based on the operations READ, DELETE, CREATE & UPDATE. 
+
 ## Used Technologies
 - *HTML, CSS, JS : for the frontend* 
 - *Spring Boot: REST CRUD API and Database management*
