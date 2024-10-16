@@ -8,7 +8,7 @@ https://camimcl.github.io/BasicToDoList
 
 ## How to use
 To test the application, clone the repository, separate the API code in the *backend* folder (make sure to check the ports used) and run the spring application.\
-You can check the api at: http://localhost:8081/api/task \
+You can check the api at: http://localhost:8081/api/tasks \
 And the database at:
 http://localhost:8081/h2-console \
 remember to check the datasource url in application.properties \
